@@ -36,4 +36,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtCountBtnClicks" />
 
+    <TextView
+        android:id="@+id/txtElapsedTime"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="76dp"
+        android:text="Elapsed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClickMe" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
